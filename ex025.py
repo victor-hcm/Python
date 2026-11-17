@@ -1,0 +1,2 @@
+nome = str(input('Qual é o seu nome completo? '))
+print('Seu nome tem Silva? {}'.format('silva' in nome.lower())) #operador IN Verifica se no nome inteiro tem ou não o silva, e o lower trabalha a entrada do usuário para minúsculo
